@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">concessionaire</string>
+    <string name="crear">REGISTER CAR</string>
+    <string name="listar">LIST CAR</string>
+    <string name="registro">CAR REGISTRATION</string>
+    <string name="placa">LICENSE PLATE</string>
+    <string name="marca">BRAND</string>
+    <string name="modelo">MODEL</string>
+    <string name="color">COLOR</string>
+    <string name="precio">PRICE</string>
+    <string name="guardar">SAVE</string>
+    <string name="borrar">DELETE</string>
+    <string name="eliminar">DELETE</string>
+    <string name="kia">KIA</string>
+    <string name="mazda">MAZDA</string>
+    <string name="dodge">DODGE</string>
+    <string name="ford">FORD</string>
+    <string name="bmw">BMW</string>
+    <string name="año1">2008</string>
+    <string name="año2">1998</string>
+    <string name="año3">1872</string>
+    <string name="rojo">RED</string>
+    <string name="blanco">WHITE</string>
+    <string name="mensaje_guardado">Saved car</string>
+    <string name="mensaje_error">REQUIRED</string>
+    <string name="titulo_detalle">Automobile Detail</string>
+</resources>

@@ -38,6 +38,7 @@ public class MainActivity extends AppCompatActivity implements AdaptadorAutomovi
         automovil.add(new Automovil(R.drawable.carro1, "S45123", "FORD", "1998", "rojo", "46993000" ));
         automovil.add(new Automovil(R.drawable.carro2, "ABC123", "MAZDA", "2998", "blanco", "20000000" ));
         automovil.add(new Automovil(R.drawable.carro3, "VBC346", "RENAULT", "3998", "negro", "98600000" ));
+        automovil.add(new Automovil(R.drawable.carro4, "TZU022", "RENAULT", "34552", "azul", "120000000" ));
 
         adaptador = new AdaptadorAutomovil(automovil, this);
         llm = new LinearLayoutManager(this);
@@ -51,8 +52,7 @@ public class MainActivity extends AppCompatActivity implements AdaptadorAutomovi
         fab.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                intent = new Intent(MainActivity.this, CrearAuto.class);
-                startActivity(intent);
+
             }
         });
 
